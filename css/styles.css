@@ -82,6 +82,7 @@ button:hover, button:focus
     border-radius: 50%;
 }
 .page-footer{
+    margin-top: 0 auto;
     clear: both;
     display: flex;
     flex-direction: column;
@@ -89,6 +90,7 @@ button:hover, button:focus
 }
 .page-main{
     text-align: center;
+    min-height: 100vh;
 }
 *{
     box-sizing: border-box;
