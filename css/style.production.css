@@ -90,6 +90,7 @@ button:hover, button:focus
     border-radius: 50%;
 }
 .page-footer{
+    min-height: auto;
     clear: both;
     display: -webkit-box;
     display: -ms-flexbox;

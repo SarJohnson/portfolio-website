@@ -82,7 +82,7 @@ button:hover, button:focus
     border-radius: 50%;
 }
 .page-footer{
-    margin-top: 0 auto;
+    min-height: auto;
     clear: both;
     display: flex;
     flex-direction: column;
