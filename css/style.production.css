@@ -80,6 +80,7 @@ button:hover, button:focus
 }
 .profile{
     max-width: 700px;
+    min-height: 100vh;
     margin: 0 auto;
 }
 .profile_portrait{
@@ -100,6 +101,7 @@ button:hover, button:focus
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    border-top: 2px solid #ffffff;
 }
 .page-main{
     text-align: center;
