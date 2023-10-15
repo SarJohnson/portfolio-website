@@ -8,7 +8,7 @@
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
@@ -48,16 +48,19 @@
             <br>
             <a href="mailto:sej17b@my.fsu.edu">sej17b@my.fsu.edu</a>
            </p>
-            <h3>Contact Form</h3>
             <form action="#" method="post" id="contact-form">
-                <label class="standard-label" for="contact-email">Email: </label>
-                <input type="email" id="contact-email" required>
+                <h3>Contact Form</h3>
+                <label class="standard-label" for="contact-email">
+                    <p>Email: </p></label>
+                <input type="email" id="contact-email" placeholder="Your Email" required>
                 <br>
-                <label class="standard label">Telephone: </label>
-                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                <label class="standard label">
+                    <p>Telephone: </p></label>
+                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Your Phone Number">
                 <br>
-                <label class="standard label">Message: </label>
-                <textarea maxlength="240" required></textarea>
+                <label class="standard label">
+                    <p>Message: </p></label>
+                <textarea maxlength="240" placeholder="Write me a message" style="height: 200px;" required></textarea>
                 <br>
                 <input type="submit" value="Send Message">
             </form>
